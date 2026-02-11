@@ -20,7 +20,7 @@ export default function Book({ book }) {
       }, 300);
     };
     return () => {
-      // When the component unmounts
+      // When the component unmount!
       mountedRef.current = false;
     };
   });
