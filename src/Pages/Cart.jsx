@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from "react";
-import { Link, useParams } from "react-router-dom/cjs/react-router-dom.min";
+import { Link } from "react-router-dom/cjs/react-router-dom.min";
 import EmptyCart from "../assets/empty_cart.svg"
 
 export default function Cart({ cart, changeQuantity, removeItem }) {
